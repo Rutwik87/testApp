@@ -13,6 +13,11 @@
 		40AACAD6280C18B30062E233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AACAD4280C18B30062E233 /* Main.storyboard */; };
 		40AACAD8280C18B40062E233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AACAD7280C18B40062E233 /* Assets.xcassets */; };
 		40AACADB280C18B40062E233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AACAD9280C18B40062E233 /* LaunchScreen.storyboard */; };
+		40AACAE4280C2D0F0062E233 /* EnterOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AACAE2280C2D0E0062E233 /* EnterOTPViewController.swift */; };
+		40AACAE5280C2D0F0062E233 /* EnterOTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AACAE3280C2D0F0062E233 /* EnterOTPViewController.xib */; };
+		40AACAE8280C36FD0062E233 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AACAE6280C36FD0062E233 /* FinalViewController.swift */; };
+		40AACAE9280C36FD0062E233 /* FinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AACAE7280C36FD0062E233 /* FinalViewController.xib */; };
+		40AACAEB280C37C40062E233 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AACAEA280C37C40062E233 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		40AACAD7280C18B40062E233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AACADA280C18B40062E233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AACADC280C18B40062E233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AACAE2280C2D0E0062E233 /* EnterOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewController.swift; sourceTree = "<group>"; };
+		40AACAE3280C2D0F0062E233 /* EnterOTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterOTPViewController.xib; sourceTree = "<group>"; };
+		40AACAE6280C36FD0062E233 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		40AACAE7280C36FD0062E233 /* FinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalViewController.xib; sourceTree = "<group>"; };
+		40AACAEA280C37C40062E233 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				40AACAD7280C18B40062E233 /* Assets.xcassets */,
 				40AACAD9280C18B40062E233 /* LaunchScreen.storyboard */,
 				40AACADC280C18B40062E233 /* Info.plist */,
+				40AACAE2280C2D0E0062E233 /* EnterOTPViewController.swift */,
+				40AACAE3280C2D0F0062E233 /* EnterOTPViewController.xib */,
+				40AACAE6280C36FD0062E233 /* FinalViewController.swift */,
+				40AACAE7280C36FD0062E233 /* FinalViewController.xib */,
+				40AACAEA280C37C40062E233 /* NetworkManager.swift */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -128,6 +143,8 @@
 				40AACADB280C18B40062E233 /* LaunchScreen.storyboard in Resources */,
 				40AACAD8280C18B40062E233 /* Assets.xcassets in Resources */,
 				40AACAD6280C18B30062E233 /* Main.storyboard in Resources */,
+				40AACAE5280C2D0F0062E233 /* EnterOTPViewController.xib in Resources */,
+				40AACAE9280C36FD0062E233 /* FinalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AACAEB280C37C40062E233 /* NetworkManager.swift in Sources */,
+				40AACAE8280C36FD0062E233 /* FinalViewController.swift in Sources */,
 				40AACAD3280C18B30062E233 /* ViewController.swift in Sources */,
 				40AACACF280C18B30062E233 /* AppDelegate.swift in Sources */,
 				40AACAD1280C18B30062E233 /* SceneDelegate.swift in Sources */,
+				40AACAE4280C2D0F0062E233 /* EnterOTPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
